@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'snake_app';
+
+  username = ''
+
+  reciveUsername(name:string){
+    this.username = name
+  }
 }
